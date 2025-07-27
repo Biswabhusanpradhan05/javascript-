@@ -1,0 +1,27 @@
+console.log("Execution started")
+
+function A(){
+    console.log("A")
+}
+A()
+
+function B(){
+    console.log("B")
+}
+B()
+
+function C(){
+    console.log("c1")
+    B()
+    console.log("c2")
+
+}
+C()
+
+function D(){
+    console.log("D1")
+    C()
+    console.log("D2")
+
+}
+D()
